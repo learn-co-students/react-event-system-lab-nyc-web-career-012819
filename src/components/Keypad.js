@@ -4,17 +4,15 @@ import React, { Component } from 'react';
 
 class Keypad extends Component {
 
-  handleKeyUp = () => {
-    console.log('Entering password...');
+  blabla = () => {
+    console.log('Entering password...')
   }
 
   render() {
     return (
-      <div>
-        <input type="password" onKeyUP={this.handleKeyUp}/>
-      </div>
+        <input onKeyUp={this.blabla} type="password" />
     )
   }
 }
 
-export default Keypad;
+export default Keypad
